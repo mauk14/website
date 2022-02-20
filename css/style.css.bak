@@ -1,0 +1,91 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: #1B1C21;
+    color: white;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 2em;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+
+.struct {
+    background-color: #272835;
+}
+.menu {
+    grid-column: 1/4;
+}
+.catalog {
+    grid-column: 1;
+}
+
+.main {
+    grid-column: 2/4;
+    
+}
+
+.logo {
+    position: relative;
+    top: 5px;
+    margin-left: 30px;
+}
+
+.search {
+    position: relative;
+    left: 400px;
+	top: 25;
+    bottom: 20px;
+    height: 40px;
+    width: 250px;
+    background-color: #353648;
+    outline: none;
+    border: none;
+    color: white;
+}
+
+* {box-sizing: border-box;}
+form {
+  width: auto;
+  float: right;
+  margin-right: 30px;
+  margin-top: 25px;
+}
+input {
+  width: 250px;
+  height: 42px;
+  padding-left: 15px;
+  border-radius: 42px;
+  border: 2px solid #324b4e;
+  background: #F9F0DA;
+  outline: none;
+  position: relative;
+  transition: .3s linear;
+}
+input:focus {
+  width: 300px;
+}
+button {
+  width: 42px;
+  height: 42px;
+  background: url(C:\Users\DEAS Po3etevchik ИГР\Desktop\frontend\css\search.png);
+  border: none;
+  position: absolute;
+  top: -2px;
+  right: 0;
+}
+button:before{
+  content: "\f002";
+  font-family: FontAwesome;
+  color: #324b4e;
+}
+
+.catalogName {
+    font-size: 30px;
+    margin-left: 35%;
+}

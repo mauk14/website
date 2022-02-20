@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="script/main.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark menu fixed-top" id="mainNav">
+        <div class="container px-4 wer">
+            <a class="navbar-brand" href="../index.html"><img src="../img/logo.png" class="logo" alt=""></a>
+            <button class="btn btn-primary login">Log In</button>
+            <button class="btn btn-success reg">Register</button>
+            <div class="collapse navbar-collapse " id="navbarResponsive">
+                <ul class="navbar-nav ms-auto tport">
+                    <li class="nav-item"><a class="nav-link" href="../../index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="news.html">News</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <form class="searchBlock">
+                <input type="text" placeholder="Search" class="search">
+            </form> 
+        </div>
+    </nav>
+    <div class="row container">    
+        <div class="struct catalog col-xs-3 col-sm-3 col-md-3 col-lg-3">
+            <h2 class="catalogName"><strong>Catalog</strong></h2>
+            <ul>
+                <li><a href="..//studies/Rockstar_Games.html" class="studios">Rockstar_Games</a></li>
+                <li><a href="..//studies/CD_Projeect_RED_1.html" class="studios">CD_Projeect_RED</a></li>
+                <li><a href="..//studies/VALVE.html" class="studios">VALVE</a></li>
+                <li><a href="..//studies/UBISOFT.html" class="studios">UBISOFT</a></li>
+                <li><a href="..//studies/Blizzard_entertainment.html" class="studios">Blizzard</a></li>
+            </ul>
+		</div>
+        
+        <div class="struct main col-xs-9 col-sm-9 col-md-9 col-lg-9">
+            <div class="games"><a href="studies/games/games1.html"><button><img src="../img/gta5.jpg" alt="" ><hr><p>Grand Theft Auto V</p></a></div>
+            <div class="games"><a href="games/games1.html"><button><img src="..//img/Red_Dead_Redemption_2_coverart.jpg" alt="" ><hr><p>Red Dead Redemption 2</p></a></button></div>
+            <div class="games"><a href="games/games1.html"><button><img src="..//img/San.jpg" alt="" ><hr><p>Grand Theft Auto San Andreas</p></a></button></div>
+            <div class="games"><a href="games/games1.html"><button><img src="..//img/MaxPayne3.jpg" alt="" ><hr><p>Max Payne 3</p></a></button></div>
+            <div class="games"><a href="games/games1.html"><button><img src="..//img/Grand_Theft_Auto_IV.jpg" alt="" ><hr><p>Grand Theft Auto IV</p></a></button></div>
+            <div class="games"><a href="games/games1.html"><button><img src="..//img/Rdr.jpg" alt="" ><hr><p>Red Dead Redemption</p></a></button></div>
+            <div class="games"><a href="games/games1.html"><button><img src="..//img/gtaVC.jpg" alt="" ><hr><p>Grand Theft Auto Vice City</p></a></button></div>
+            <div class="games"><a href="games/games1.html"><button><img src="..//img/MaxPayne.jpg" alt="" ><hr><p>Max Payne</p></a></button></div>
+            <div class="games"><a href="games/games1.html"><button><img src="..//img/GTA3cover.jpg" alt="" ><hr><p>Grand Theft Auto III</p></a></button></div>
+            <div class="games"><a href="games/games1.html"><button><img src="..//img/Midnight_Club_3_DUB_Edition.jpg" alt="" ><hr><p>Midnight Club 3</p></a></button></div>
+            <div class="games"><a href="games/games1.html"><button><img src="..//img/RdrO.jpg" alt="" ><hr><p>Red Dead Online</p></a></button></div>
+            <div class="games"><a href="games/games1.html"><button><img src="..//img/MaxPayne2.jpg" alt="" ><hr><p>Max Payne 2</p></a></button></div>
+        </div>
+    </div>    
+</body>
+</html>

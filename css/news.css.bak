@@ -1,0 +1,7 @@
+.AboutGamenews img {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
