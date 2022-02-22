@@ -1,6 +1,17 @@
 let stability =  JSON.parse(localStorage.getItem('stability'));
 // alert(stability)
 
+if(stability == null || stability == undefined || stability == "") {
+    let regDates = [];
+    let id = 0;
+    stability = [false];
+    let comDates = [];
+    localStorage.setItem('comDates', JSON.stringify(comDates));
+    localStorage.setItem('regDates', JSON.stringify(regDates));
+    localStorage.setItem('id', id);
+    localStorage.setItem('stability', JSON.stringify(stability));
+    localStorage.setItem('isDiv', JSON.stringify(false));
+}
 
 if(stability[0]) {
     let date = localStorage.getItem('regDates');
